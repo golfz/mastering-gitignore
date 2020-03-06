@@ -61,6 +61,7 @@ $RECYCLE.BIN/
 
 ### เว็บ gitignore.io
 หรือเราจะใช้เว็บ http://gitignore.io ช่วย generate ไฟล์ .gitignore ก็ได้
+
 ![เว็บ gitignore.io](https://github.com/golfz/mastering-gitignore/blob/master/img/gitignore_io.png)
 
 ซึ่งจะได้ gitignore มาให้เราใช้ ดังนี้
