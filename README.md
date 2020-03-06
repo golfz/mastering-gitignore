@@ -129,3 +129,15 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/go,windows,visualstudiocode
 ```
+
+## Pattern สำหรับเขียน gitignore ด้วยตนเอง
+* บรรทัดว่างไม่มีความหมายอะไร ใช้เพื่อให้อ่านง่ายขึ้น
+* เริ่มต้นบรรทัดด้วย `#` คือ การ comment 
+```
+# this is a line of comment
+```
+* `!` ใช้เพื่อเป็นข้อยกเว้น ไมื่อไม่ต้องการ ignore บางอย่าง
+* `\` ใช้ขึ้นต้นแต่ละบรรทัดนำหน้า `#` หรือ `!` เมื่อใช้ `#` และ `!` เป็น pattern ในการ ignore
+* `/` ใช้เป็น **Directory Seperator**, โดยสามารถอยู่ได้ทั้ง ขึ้นต้น, กลาง และสิ้นสุด pattern
+> `doc/flotz` flotz เป็นได้ทั้ง directory และ file
+> `doc/flotz/` flotz เป็น directory
