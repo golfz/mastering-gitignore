@@ -1,5 +1,11 @@
 # Mastering Gitignore
 
+## หัวข้อ
+- [x] ตัวอย่าง
+- [x] patterns
+- [x] ปัญหาที่พบบ่อย
+- [ ] อธิบายจากตัวอย่าง
+
 เบื้องต้นให้เข้าไปดูที่ https://github.com/github/gitignore ว่า ภาษาที่เราเขียน , IDE และ OS ที่เรากำลังใช้ เราควรต้อง ignore ไฟล์อะไรบ้าง
 
 ### ตัวอย่าง Windows
@@ -62,7 +68,7 @@ $RECYCLE.BIN/
 ### เว็บ gitignore.io
 หรือเราจะใช้เว็บ http://gitignore.io ช่วย generate ไฟล์ .gitignore ก็ได้
 
-![เว็บ gitignore.io](https://github.com/golfz/mastering-gitignore/blob/master/img/gitignore_io.png)
+![เว็บ gitignore.io](img/gitignore_io.png)
 
 ซึ่งจะได้ gitignore มาให้เราใช้ ดังนี้
 ```
