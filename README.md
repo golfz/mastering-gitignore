@@ -1,4 +1,4 @@
-# mastering-gitignore
+# Mastering Gitignore
 
 เบื้องต้นให้เข้าไปดูที่ https://github.com/github/gitignore ว่า ภาษาที่เราเขียน , IDE และ OS ที่เรากำลังใช้ เราควรต้อง ignore ไฟล์อะไรบ้าง
 
