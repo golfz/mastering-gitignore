@@ -140,11 +140,8 @@ $RECYCLE.BIN/
 * `!` ใช้เพื่อเป็นข้อยกเว้น ไมื่อไม่ต้องการ ignore บางอย่าง
 * `\` ใช้ขึ้นต้นแต่ละบรรทัดนำหน้า `#` หรือ `!` เมื่อใช้ `#` และ `!` เป็น pattern ในการ ignore
 * `/` ใช้เป็น **Directory Seperator**, โดยสามารถอยู่ได้ทั้ง ขึ้นต้น, กลาง และสิ้นสุด pattern
-
-> `doc/flotz` flotz เป็นได้ทั้ง directory และ file
-
-> `doc/flotz/` flotz เป็น directory
-
+  * `doc/flotz` flotz เป็นได้ทั้ง directory และ file
+  * `doc/flotz/` flotz เป็น directory
 * `*` ใช้ match กับทุกอย่าง **ยกเว้น** `/`
 * `?` ใช้ match กับ 1 อักขระ **ยกเว้น** `/`
 * `[a-zA-Z]` ใช้ match กับ 1 อักขระ ที่อยู่ในช่วงที่กำหนด
