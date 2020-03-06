@@ -39,3 +39,26 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 *.code-workspace
 ```
+
+### ตัวอย่าง Go
+```
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+```
+
+### เว็บ gitignore.io
+หรือเราจะใช้เว็บ http://gitignore.io ช่วย generate ไฟล์ .gitignore ก็ได้
+![เว็บ gitignore.io]()
