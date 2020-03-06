@@ -1,6 +1,5 @@
 # Mastering Gitignore
 
-## หัวข้อ
 - [x] ตัวอย่าง
 - [x] patterns
 - [x] ปัญหาที่พบบ่อย
