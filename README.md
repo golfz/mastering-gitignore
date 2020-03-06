@@ -150,3 +150,20 @@ $RECYCLE.BIN/
 * `**/` match กับทุก directory เช่น `**/foo` จะ match กับ "`foo`" ที่อยู่ในทุก directory
 * `/**` match กับทุกอย่าง เช่น `foo/**` จะ match กับทุกอย่างที่อยู่ใน "`foo`" ไม่ว่าจะอยู่ลึกระดับใด
 * `a/**/b` จะ match กับ "`a/b`", "`a/x/b`" หรือ "`a/x/y/b`"
+
+
+# แก้ปัญหาที่ไม่สามารถ ignore ไฟล์ที่เคยถูก commit แล้วได้
+หลังจากเพิ่มไฟล์ .gitignore แล้ว ให้ใข้คำสั่งนี้
+```bash
+git rm -r --cached .
+```
+
+แล้วจึง add files ทั้งหมดอีกครั้ง
+```bash
+git add .
+```
+
+แล้ว commit
+```bash 
+git commit -m "applied .gitignore"
+```
